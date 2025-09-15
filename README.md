@@ -42,6 +42,10 @@ links :
 https://izhuhaoran.github.io/2023/01/24/CPP_Note/cilkplus%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/
 Ubuntu 20.04移除对CILK库的支持。Ubuntu 18.04直接使用sudo apt install gcc g++，安装的7.5.0版本包含cilk库
 
+- g++ -9
+但是Teseo需要g++ -9，所以通过sudo apt install g++-9另外安装一个9.4.0版本
+sudo cp -r /usr/lib/gcc/x86_64-linux-gnu/7/include/cilk /usr/lib/gcc/x86_64-linux-gnu/9/include/cilk
+
 ### Preconfig
 
 ```
