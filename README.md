@@ -37,6 +37,8 @@ links :
 - OpenMP
 - Clang 10
 
+- CILK: https://izhuhaoran.github.io/2023/01/24/CPP_Note/cilkplus%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/
+
 ### Preconfig
 
 ```
