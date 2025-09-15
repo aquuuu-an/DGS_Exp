@@ -58,11 +58,35 @@ make
 
 ### Dataset
 
+×无法访问
 The dataset can be download form: http://konect.cc/networks/ use:
 
 ```
 cd data/LDBCgraph
 wget http://konect.cc/networks/{exp_data} 
+```
+
+√可以访问
+The dataset can be download form: https://snap.stanford.edu/data/ use:
+
+```
+cd ~/data/LDBCgraph
+
+# LiveJournal
+wget https://snap.stanford.edu/data/soc-LiveJournal1.txt.gz
+gunzip soc-LiveJournal1.txt.gz
+
+# Orkut
+wget https://snap.stanford.edu/data/com-Orkut.ungraph.txt.gz
+gunzip com-Orkut.ungraph.txt.gz
+
+# Twitter
+wget https://snap.stanford.edu/data/ego-Twitter.txt.gz
+gunzip ego-Twitter.txt.gz
+
+# Friendster
+wget https://snap.stanford.edu/data/com-Friendster.ungraph.txt.gz
+gunzip com-Friendster.ungraph.txt.gz
 ```
 
 Before run experiment, please transform data from LDBC format to CSR format by use:
