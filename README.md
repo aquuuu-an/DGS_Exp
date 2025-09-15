@@ -70,7 +70,11 @@ wget http://konect.cc/networks/{exp_data}
 The dataset can be download form: https://snap.stanford.edu/data/ use:
 
 ```
-cd ~/data/LDBCgraph
+cd ..
+mkdir data
+cd data
+mkdir LDBCgraph 
+cd LDBCgraph
 
 # LiveJournal
 wget https://snap.stanford.edu/data/soc-LiveJournal1.txt.gz
@@ -92,10 +96,10 @@ gunzip com-friendster.ungraph.txt.gz
 Before run experiment, please transform data from LDBC format to CSR format by use:
 
 ```
-cd data/LDBCgraph
-wget http://konect.cc/networks/{exp_data} 
-cd ../../build
-./transfer  ../data/LDBCgraph/{exp_data}.txt  ../data/ADJgraph/{exp_data}.adj
+cd ..
+mkdir ADJgraph
+cd ../build/exp
+./transfer  ../../data/LDBCgraph/{exp_data}.txt  ../../data/ADJgraph/{exp_data}.adj
 ```
 
 ### Run
