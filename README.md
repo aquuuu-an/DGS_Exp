@@ -77,16 +77,16 @@ wget https://snap.stanford.edu/data/soc-LiveJournal1.txt.gz
 gunzip soc-LiveJournal1.txt.gz
 
 # Orkut
-wget [https://snap.stanford.edu/data/com-Orkut.ungraph.txt.gz](https://snap.stanford.edu/data/bigdata/communities/com-orkut.ungraph.txt.gz)
-gunzip com-Orkut.ungraph.txt.gz
+wget https://snap.stanford.edu/data/bigdata/communities/com-orkut.ungraph.txt.gz
+gunzip com-orkut.ungraph.txt.gz
 
 # Twitter
-wget https://snap.stanford.edu/data/ego-Twitter.txt.gz
-gunzip ego-Twitter.txt.gz
+wget https://snap.stanford.edu/data/twitter_combined.txt.gz
+gunzip twitter_combined.txt.gz
 
 # Friendster
-wget https://snap.stanford.edu/data/com-Friendster.ungraph.txt.gz
-gunzip com-Friendster.ungraph.txt.gz
+wget https://snap.stanford.edu/data/bigdata/communities/com-friendster.ungraph.txt.gz
+gunzip com-friendster.ungraph.txt.gz
 ```
 
 Before run experiment, please transform data from LDBC format to CSR format by use:
