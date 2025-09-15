@@ -37,7 +37,10 @@ links :
 - OpenMP
 - Clang 10
 
-- CILK: https://izhuhaoran.github.io/2023/01/24/CPP_Note/cilkplus%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/
+- Ubuntu 18.04
+- CILK
+https://izhuhaoran.github.io/2023/01/24/CPP_Note/cilkplus%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/
+Ubuntu 20.04移除对CILK库的支持。Ubuntu 18.04直接使用sudo apt install gcc g++，安装的7.5.0版本包含cilk库
 
 ### Preconfig
 
