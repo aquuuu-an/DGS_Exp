@@ -77,7 +77,7 @@ wget https://snap.stanford.edu/data/soc-LiveJournal1.txt.gz
 gunzip soc-LiveJournal1.txt.gz
 
 # Orkut
-wget https://snap.stanford.edu/data/com-Orkut.ungraph.txt.gz
+wget [https://snap.stanford.edu/data/com-Orkut.ungraph.txt.gz](https://snap.stanford.edu/data/bigdata/communities/com-orkut.ungraph.txt.gz)
 gunzip com-Orkut.ungraph.txt.gz
 
 # Twitter
