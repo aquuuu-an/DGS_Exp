@@ -47,6 +47,21 @@ Ubuntu 20.04移除对CILK库的支持。Ubuntu 18.04直接使用sudo apt install
 sudo cp -r /usr/lib/gcc/x86_64-linux-gnu/7/include/cilk /usr/lib/gcc/x86_64-linux-gnu/9/include/cilk
 
 ### Preconfig
+```
+sudo apt install gcc g++
+
+sudo apt update
+sudo apt install -y software-properties-common
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt update
+sudo apt install -y gcc-9 g++-9
+sudo apt install -y libevent-dev
+```
+
+```
+vim /home/hq/Code/GraphStorageExp/exp/memory_tst/test_memory.cpp
+# main函数解除注释
+```
 
 ```
 git clone https://github.com/xiangyuzhi/GraphStorageExp.git --recursive
